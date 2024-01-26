@@ -1,0 +1,5 @@
+numA = int(input("Insira um número "))
+numB = int(numA*2)
+numC = int(numA*3)
+numD = int(numA**(1/2))
+print("O dobro, triplo e a raiz quadrada desse número é respectivamente {},{} e {}".format(numB, numC, numD))

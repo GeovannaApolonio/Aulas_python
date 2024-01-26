@@ -1,0 +1,6 @@
+print("Calcule quantos litros você precisará para pintar sua parede")
+numL = float(input("Qual a lagura da sua parede? "))
+numA = float(input("E a altura da parede? "))
+área = float((numL*numA))
+quantL = float(área/2)
+print(f"A quantidade de litros para pintar a parede toda é {quantL}")

@@ -1,0 +1,5 @@
+print("Correção do valor do produto.")
+numP = float(input("Digite o preço atual do produto: "))
+numC = float(numP * 0.95)
+numC_limitado = round(numC, 2)
+print(f"O valor atualizado do preço do produto é {numC_limitado}")
